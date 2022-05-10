@@ -21,12 +21,28 @@
     <link rel="manifest" href="/site.webmanifest" />
 
     <style type="text/css">
+      body {
+        margin: 0;
+      }
+
+      div {
+        width: 100vw;
+        height: 100vh;
+        position: relative;
+      }
+
       p {
+        width: 100%;
+        height: fit-content;
         text-align: center;
-        line-height: 100vh;
         font-family: Arial, Helvetica, sans-serif;
         font-weight: 800;
-        font-size: 50px;
+        font-size: 2rem;
+        word-break: break-word;
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
       }
 
       a {
@@ -35,12 +51,14 @@
     </style>
   </head>
   <body>
-    <p>
-      Redirecting to our
-      <a
-        href="https://mighty-glasses-2be.notion.site/PHA-UQ-in-a-nutshell-267cc2acd5ca439fb7c14fa166481e39"
-        >Notion site</a
-      >...
-    </p>
+    <div>
+      <p>
+        Redirecting to our
+        <a
+          href="https://mighty-glasses-2be.notion.site/PHA-UQ-in-a-nutshell-267cc2acd5ca439fb7c14fa166481e39"
+          >Notion site</a
+        >...
+      </p>
+    </div>
   </body>
 </html>
